@@ -205,3 +205,13 @@ body {
     font-size: 1.3rem;
   }
 }
+@media only screen and (max-width: 600px) {
+  .tree-container {
+    width: 300px; /* Más pequeño para celular */
+    height: 300px;
+  }
+  .target-name {
+    font-size: 1.5rem; /* Letra más pequeña */
+    top: 5%;
+  }
+}
